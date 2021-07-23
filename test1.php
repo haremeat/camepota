@@ -1,0 +1,11 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" action="./upload.php">
+<input type="file" name="upload_file">
+<input type="submit" value="업로드">
+</form>
+</body>
+</html>

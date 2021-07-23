@@ -1,0 +1,14 @@
+$input_width:200px;
+
+form {
+    div.form-group{
+        margin: 0 auto;
+        padding: 5px;
+            input[type=text] {
+            width: $input_width;
+         }
+         input[type=password]{
+             width: $input_width;
+         }
+    }
+}

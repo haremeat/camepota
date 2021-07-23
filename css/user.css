@@ -1,0 +1,62 @@
+#context-menu {
+  width:200px;
+  position:absolute;
+  display:none;
+  top:100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-weight: normal;
+  list-style: none;
+  border-bottom: none;
+  border-top: none;
+  z-index:3px;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+#context-menu li a {
+  color:#333;
+  text-decoration:none;
+  display:block;
+  padding:10px 0;
+  border-bottom: 1px solid #e6e8ea;
+}
+
+#context-menu li {
+	padding: 0 10px ;
+}
+
+#context-menu li i {
+	margin-right: 5px;
+    color: #47a3da;
+    vertical-align: middle;
+}
+
+#context-menu li:hover a{
+	color: #57a9d9;
+}
+
+#overlay {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:black;
+  opacity:0.3;
+  z-index:2px;
+  display:none;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  list-style:none;
+}
+
+.user-nickname {
+ cursor: pointer;
+}

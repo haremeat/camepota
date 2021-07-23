@@ -1,0 +1,89 @@
+*{
+  margin: 0 auto;
+}
+
+table {
+    margin-top: 30px;
+}
+
+h3{
+  font-size: 200%;
+  margin-top:30px;
+  text-align: center;
+}
+
+.regist {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.y-add{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.paging_area{
+  margin-top: 15px;
+}
+
+.boardArticle table {
+  width : 720px;
+}
+
+.boardArticle th {
+  padding: 5px 0;
+  border-top: 2px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+.boardArticle td {
+  padding: 8px 0;
+  border-bottom: 1px solid #666;
+}
+
+.boardArticle .no {
+  width: 60px;
+  text-align: center;
+}
+
+.boardArticle .author {
+  width: 100px;
+  text-align: center;
+}
+
+.boardArticle .date {
+  width: 100px;
+  text-align: center;
+}
+
+.boardArticle .hit {
+  width: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 55em) {
+  #jb-container {
+    width: auto;
+    float: none;
+  }
+  #jb-content > table {
+    float: none;
+    width: auto;
+  }
+  .jb-content1 {
+    float: none;
+    width: auto;
+    }
+    table{
+        float: none;
+        width: auto;
+    }
+  .paging_area {
+    float: none;
+    width: auto;
+  }
+  .jb-footer{
+    float: none;
+    width: auto;
+  }
+}
