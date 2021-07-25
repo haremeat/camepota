@@ -18,6 +18,7 @@ if ( empty($selectedBoard) ) {
   $_GET['boardId'] = $selectedBoard['id'];
 }
 
+?>
 <select name="boardId" style="width:100%;" onchange="location.href = 'add.php?boardId=' + this.value;">
   <? foreach ( $boards as $board ) { ?>
     <?
